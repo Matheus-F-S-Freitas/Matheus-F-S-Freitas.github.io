@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(173, 52, 62);
+}
+
+
+#header {
+  background-color: rgb(243, 249, 210);
+  text-align: center;
+  padding: 20px;
+  text-decoration: solid;
+  font-family: sans-serif;
+}
+
+
+#header p {
+  font-size: 20px;
+  font-style: italic;
+  line-height: 5px;
+  display: inline-block;
+}
