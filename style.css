@@ -31,14 +31,18 @@ body {
 }
 
 .me {
-  width: 1000px;
+  width: 950px;
   position: absolute;
   background-position-x: center;
-  padding: 20px;
+  padding: 15px;
   padding-right: 5px;
   left: 350px;
   top: 295px;
   z-index: 2;
+}
+
+.me :hover{
+  width: 300px;
 }
 
 .quem-sou {
