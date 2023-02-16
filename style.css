@@ -1,20 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(173, 52, 62);
+  font-family: 'Signika Negative', sans-serif;
 }
 
 
-#header {
+.header {
   background-color: rgb(243, 249, 210);
   text-align: center;
-  padding: 20px;
+  margin: auto;
   text-decoration: solid;
-  font-family: sans-serif;
+  width: 100%;
+  padding: 20px;
 }
 
+.header h1 {
+  padding: 10px;
+}
 
-#header p {
+.header p {
   font-size: 20px;
   font-style: italic;
-  line-height: 5px;
+  padding: 30px;
   display: inline-block;
+  margin: auto;
+}
+
+.me {
+  width: 1000px;
+  position: absolute;
+  background-position-x: center;
+  padding: 20px;
+  padding-right: 5px;
+  left: 350px;
+  top: 295px;
+  z-index: 2;
+}
+
+.quem-sou {
+  right: 170px;
+  position: absolute;
+  z-index: 1;
+  top: 300px;
+  background-color: rgb(192, 245, 250);
+  padding: 20px;
+  padding-left: 400px;
+  border: 5px solid rgb(110, 245, 250);
+  border-radius: 10px;
+}
+
+.quem-sou h3 {
+
 }
